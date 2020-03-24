@@ -1,0 +1,54 @@
+Aplicatição web e mobile com React, React Native em uma abordagem SPA utilizando banco SQLite e Knex.js como query builder no ambiente de Node.js.
+
+package.json: armazena caracteristicas do projeto como o nome, arquivo inicial, etc. 
+
+node_modules: guarda o código de todos os pacotes que foram instalados e que a aplicação tem como dependência.
+
+Express (pacote): ajuda principalmente na criação das rotas da aplicação.
+
+npm: instala pacote
+npx: executa pacote
+
+npm install nodemon -D: dependência que atualiza automaticamente o conteúdo na tela após alterações no código (-D significa desenvolvimento, esse tipo de biblioteca não vai para produção). É possível criar um script em "package.json" para facilitar o uso - "start": "nodemon src/index.js". Para iniciar basta digitar "npm start" no terminal.
+
+Insomnia: usado para testar as rotas do backend.
+
+Knex.js: query builder de SQL para usar com node.
+
+npx knex init: cria o arquivo "knexfile.js". Neste arquivo as configurações de acesso ao banco de dados para cada um dos ambientes da aplicação, seja desenvolvimento, produção ou staging (simulação da produção em desenvolvimento). 
+
+/** 
+ * Tipos de parâmetros:
+ *     
+ * Query Params - parâmetros *nomeados* enviados na rota após o '?' (filtros, paginação,etc)
+ * Route Params - parâmetros utilizados para identificar recursos (buscar um único em users)
+ * Request Body - corpo da requisição, utilizado para criar ou alterar recursos
+ * 
+ */
+
+
+/* Acesso a todos aos paramentros da query (app.get('/users/?nome=Jhonathan
+    const query = request.query;
+    console.log(query); 
+*/
+
+/* Acesso a todos aos paramentros da route (app.get('/users/:id') - não é nomeado
+    
+    const id = request.params;
+    console.log(id);
+*/
+
+/* Acesso ao body da requisição (app.post('/users/')
+    
+    const body = request.body;
+    console.log(body);
+*/
+
+Entidades: ONG e caso (incident).
+Funcionalidades: login da ONG, logout da ONG, cadastro da ONG, cadastrar novos casos, deletar casos, listar casos especificos de uma ONG, listar todos os casos e entrar em contato com a ONG.
+
+migrations (Knex): forma de criar tabelas e mater um histórico do que foi criado, alterado, como um controle de versão do banco de dados.
+
+Cors (npm install cors): módulo que determina quem pode acessar a aplicação.
+
+-- .gitignore: não enviar node_modules para o GitHub, quando clonar o repositório, executar "npm install" no terminal para as dependências serem baixadas.
