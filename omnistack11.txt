@@ -9,7 +9,7 @@ Express (pacote): ajuda principalmente na criação das rotas da aplicação.
 npm: instala pacote
 npx: executa pacote
 
-npm install nodemon -D: dependência que atualiza automaticamente o conteúdo na tela após alterações no código (-D significa desenvolvimento, esse tipo de biblioteca não vai para produção). É possível criar um script em "package.json" para facilitar o uso - "start": "nodemon src/index.js". Para iniciar basta digitar "npm start" no terminal.
+Nodemon (npm install nodemon -D): dependência que atualiza automaticamente o conteúdo na tela após alterações no código (-D significa desenvolvimento, esse tipo de biblioteca não vai para produção). É possível criar um script em "package.json" para facilitar o uso - "start": "nodemon src/index.js". Para iniciar basta digitar "npm start" no terminal.
 
 Insomnia: usado para testar as rotas do backend.
 
@@ -52,3 +52,5 @@ migrations (Knex): forma de criar tabelas e mater um histórico do que foi criad
 Cors (npm install cors): módulo que determina quem pode acessar a aplicação.
 
 -- .gitignore: não enviar node_modules para o GitHub, quando clonar o repositório, executar "npm install" no terminal para as dependências serem baixadas.
+
+Axios (npm install axios): faz chamadas para outras APIs. Usado para fazer o backend e o frontend conversarem.
