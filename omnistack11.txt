@@ -1,5 +1,3 @@
-Aplicatição web e mobile com React, React Native em uma abordagem SPA utilizando banco SQLite e Knex.js como query builder no ambiente de Node.js.
-
 package.json: armazena caracteristicas do projeto como o nome, arquivo inicial, etc. 
 
 node_modules: guarda o código de todos os pacotes que foram instalados e que a aplicação tem como dependência.
@@ -54,3 +52,7 @@ Cors (npm install cors): módulo que determina quem pode acessar a aplicação.
 -- .gitignore: não enviar node_modules para o GitHub, quando clonar o repositório, executar "npm install" no terminal para as dependências serem baixadas.
 
 Axios (npm install axios): faz chamadas para outras APIs. Usado para fazer o backend e o frontend conversarem.
+
+Celebrate (npm install celebrate): módulo para validação no backend.
+
+Jest (npm install jest): módulo para realizar testes na aplicação.
