@@ -7,6 +7,22 @@ Para clonar o repositório, execute o seguinte comando no terminal:
 
 ```git clone https://github.com/pushline/Be-the-Hero.git```
 
+# Projeto
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+
+![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77811449-13935d80-7079-11ea-9123-4c8ff90a696b.png)
+ 
+![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77805427-9c51cf80-7060-11ea-88a1-ff3014ffe8ce.gif)
+
+![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77805360-72001200-7060-11ea-9bc3-dd313a195bf8.gif)
+
+
 # Instalação
 
 ## Pré-Requisitos 
@@ -44,18 +60,3 @@ yarn install
 expo start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página ``localhost:19002``. Conecte seu emulador, ou teste o aplicativo por ``LAN``: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR. (Se não for por lan, tente por tunnel, espere aparecer no Metro Blunder(informações do Expo sobre o app) a mensagem *Tunnel Ready* então clique em tunnel e escaneie o código QR.
-
-# Projeto
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
-
-![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77811449-13935d80-7079-11ea-9123-4c8ff90a696b.png)
- 
-![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77805427-9c51cf80-7060-11ea-88a1-ff3014ffe8ce.gif)
-
-![](https://github.com/pushline/Be-the-Hero/blob/master/frontend/77805360-72001200-7060-11ea-9bc3-dd313a195bf8.gif)
